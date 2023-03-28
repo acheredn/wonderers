@@ -1,0 +1,141 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "b_settings" : 1,
+                "b_export" : 1,
+                "s_output" : "exporting...",
+                "export_path" : "C:\\Users\\chere\\Downloads\\"
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "road.001",
+            "rotation" : [
+                0.7070177793502808,
+                0.011226058006286621,
+                -0.01122605986893177,
+                0.7070176601409912
+            ],
+            "scale" : [
+                0.24499474465847015,
+                -0.6750056743621826,
+                0.9781090617179871
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "road.001",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "extras" : {},
+            "name" : "road.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                5.252508163452148,
+                10.033963203430176,
+                0.1185777485370636
+            ],
+            "min" : [
+                -5.252506256103516,
+                -10.033965110778809,
+                -0.1185777485370636
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 1152
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1224,
+            "uri" : "data:application/octet-stream;base64,jBSoQB2LIEEk2PI9jBSoQB2LIEEk2PI9jBSoQB2LIEEk2PI95ZZeQOdAH8GS1/I95ZZeQOdAH8GS1/I95ZZeQOdAH8GS1/I9iBSowB+LIMFS2PI9iBSowB+LIMFS2PI9iBSowB+LIMFS2PI95ZZewOtAH0Hk2PI95ZZewOtAH0Hk2PI95ZZewOtAH0Hk2PI9iBSoQB2LIEFQ2PK9iBSoQB2LIEFQ2PK9iBSoQB2LIEFQ2PK97ZZewOpAH0GQ1/K97ZZewOpAH0GQ1/K97ZZewOpAH0GQ1/K9hhSowB+LIMEk2PK9hhSowB+LIMEk2PK9hhSowB+LIMEk2PK94ZZeQOtAH8Hk2PK94ZZeQOtAH8Hk2PK94ZZeQOtAH8Hk2PK9OP9+v9odtT2GY6E2uZ4wtG96lDMAAIC/gUcXPDP9f7/g6gE2OP9+v9odtT2GY6E270gXvDb9fz+m7Qa3uZ4wtG96lDMAAIC/70gXvDb9fz+m7Qa3uZ4wtG96lDMAAIC/OP9+P8Ydtb0AAACAuZ4wtG96lDMAAIC/gUcXPDP9f7/g6gE2OP9+P8Ydtb0AAACAOP9+v9odtT2GY6E2n6AwNFPDlbMAAIA/gUcXPDP9f7/g6gE2n6AwNFPDlbMAAIA/gUcXPDP9f7/g6gE2OP9+P8Ydtb0AAACA70gXvDb9fz+m7Qa3n6AwNFPDlbMAAIA/OP9+P8Ydtb0AAACAOP9+v9odtT2GY6E270gXvDb9fz+m7Qa3n6AwNFPDlbMAAIA/+N2iNsP/lzQAAIA/AACAP+AdtT06/34/l1BpMwAAgD9jnwa3M+UGtgAAgL8AAIA/cjfTNuqEijcAAIA/AACAPw5qiTaJkQc3AACAPwAAgD/THbU9Ov9+P5xQaTMAAIA/tqmEtlJSBjcAAIA/AACAP8wdtT03/34/m1BpMwAAgD/6KvEygcSpNAAAgL8AAIA/2x21PTf/fj+XUGkzAACAPxk8B7cA6wa2//9/vwAAgD8x89+0s6adtgAAgL8AAIA/0DujNvgP2jQAAIA/AACAP9cdtb06/36/It9rswAAgD8loga3TOUGtv//f78AAIA/0B21vTn/fr8k32uzAACAP9s+B7ca6wa2//9/vwAAgD9AI960G2CctgAAgL8AAIA/DmqJtrRMBjcAAIA/AACAP74dtb06/36/Ld9rswAAgD8BFQcz/S2+NAAAgL8AAIA/TJXTNiqNizcAAIA/AACAP7ephDbriwc3AACAPwAAgD/FHbW9Ov9+vyrfa7MAAIA/AACAP3DwBT9R2ms/AAAAAFyPcj8AAAAAAACAPwAAgD9cj3I/AAAAAMPT6z4AAAAAXI9yPwAAgD/D0+s+AACAP/VKeT9w8AU/UdprPwAAgD9cj3I/AACAP/VKeT8QpT099Up5P3DwBT8AAAAAAAAAAPVKeT8AAAAAAAAAAAAAgD/1Snk/AACAPwAAgD8QpT09UdprPwAAgD/D0+s+AACAPwAAgD9w8AU/9Up5PwAAgD9R2ms/AAAAAMPT6z4AAAAAAQAFAAcAAQAHAAkADQAPABMADQATABcAAgAKABAAAgAQAA4ACwAIABQACwAUABEABgAEABYABgAWABIADAAVAAMADAADAAAA"
+        }
+    ]
+}
